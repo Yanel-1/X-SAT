@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
 
     printf("c parse: %s\n", OPT(instance).c_str());
 
-    csat.parse_aig(OPT(instance).c_str());
+    csat.parse_aig(OPT(instance).c_str());//将文件内容读到程序
     
     printf("c num_gates: %d\n", csat.num_vars);
   
