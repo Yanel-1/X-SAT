@@ -1,7 +1,7 @@
 #include "solver/solver.h"
 #include "conf/options.hpp"
 int main(int argc, char **argv) {
-    INIT_ARGS(argc, argv);
+    INIT_ARGS(argc, argv);//定义并将参数赋给变量
     __gloabal_options.print_change();
 
     CSat csat;
